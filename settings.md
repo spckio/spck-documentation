@@ -2,7 +2,7 @@
 
 Yay! This is a page dedicated to describing the long, tedious, and complex settings to use the editor. Hence, the name of this section. Nah, I promsie it won't be that bad. In fact, settings in [Spck Editor](https://spck.io) are fairly straightforward (hopefully).
 
-<img width="300" src="/img/settings/settings-0.png">
+<img width="300" src="img/settings/settings-0.png">
 
 ### Appearance
 

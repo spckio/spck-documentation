@@ -16,28 +16,28 @@ Spck (pronouced as "spec") Editor enables you to work on JavaScript projects whe
 
 Code hints are an essential aid to mastering external libraries. They also offer a convenience in your own code, and provide incentives to better document code with JSDoc comment strings.
 
-<img width="520" src="/img/landing/hint.png">
+<img width="520" src="img/landing/hint.png">
 
 ### Autocompletion
 
 Make less typos with the awesome code completion provided by the editor. Code completions are handled by the awesome TypeScript libraries provided by VS Code.
 
-<img width="442" src="/img/landing/autocomplete.png">
-<img width="442" src="/img/landing/autocomplete-dark.png">
+<img width="442" src="img/landing/autocomplete.png">
+<img width="442" src="img/landing/autocomplete-dark.png">
 
 ### Themes
 
 The editor supports a variety of themes including XCode, Chrome, Dracula, Monokai, Ayu Mirage, and Ayu Light.
 
-<img width="520" src="/img/landing/theme-dark.png">
-<img width="520" src="/img/landing/theme.png">
+<img width="520" src="img/landing/theme-dark.png">
+<img width="520" src="img/landing/theme.png">
 
 ### Markdown
 
 If you ever need to preview a Markdown file, you can do so right in the editor. Built upon the awesome [Markdown-it](https://github.com/markdown-it/markdown-it/) library.
 
-<img width="442" src="/img/landing/markdown.png">
-<img width="442" src="/img/landing/markdown-dark.png">
+<img width="442" src="img/landing/markdown.png">
+<img width="442" src="img/landing/markdown-dark.png">
 
 ### Github
 
@@ -45,20 +45,20 @@ Export your changes right to your Github repo. If you need to make live edits to
 
 Be sure to give it a try. Also please checkout our Github [repos](https://github.com/spckio) on more info on [embedding ](https://github.com/spckio/spck-embed) Spck Editor in your own site as well as libraries that Spck Editor is built upon.
 
-<img width="300" src="/img/landing/git-2.png">
-<img width="300" src="/img/landing/git.png">
+<img width="300" src="img/landing/git-2.png">
+<img width="300" src="img/landing/git.png">
 
 ### Diffs
 
 File diffing is an awesome feature that any code editor needs. Features are a bit lacking in Spck Editor's code differ, but hopefully more features will be added to the differ in the near future. Some planned features are char-by-char diffs as well as in-place editting.
 
-<img width="475" src="/img/landing/diff.png">
+<img width="475" src="img/landing/diff.png">
 
 ### Search
 
 Project-wide code searching is a useful tool for any JavaScript development. Navigating between files by keywords and refactoring are all made easier with an awesome fast search feature. There's still room to improve with the editor's search, so we need your [feedback](https://github.com/spckio/spck-issues) on any ideas to improve the editor!
 
-<img width="300" src="/img/landing/search.png">
+<img width="300" src="img/landing/search.png">
 
 ### Live Preview
 
@@ -66,4 +66,4 @@ Live previewing is a feature so essential, its barely worth mentioning. However.
 
 Additionally, previewing also work great in Spck Editor's mobile app. So if your interested in giving JavaScript development a try on your mobile device, be sure to download our [mobile app](https://play.google.com/store/apps/details?id=io.spck&hl=en_CA&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1).
 
-<img width="520" src="/img/landing/preview.png">
+<img width="520" src="img/landing/preview.png">
