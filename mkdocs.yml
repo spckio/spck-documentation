@@ -1,0 +1,19 @@
+site_name: Spck Editor Documentation
+
+nav:
+    - Home: index.md
+    - Getting Started:
+        - Creating Your First Project: getting-started/#creating-your-first-project
+        - Adding Files: getting-started/#adding-files
+        - Previewing: getting-started/#previewing
+    - Git Features:
+        - Getting Started: git-features/#getting-started
+        - Branching: git-features/#branching
+        - File Diffs: git-features/#file-diffs
+        - Committing: git-features/#committing
+    - Editor Settings:
+        - Appearance: editor-settings/#appearance
+        - Editor: editor-settings/#editor
+        - Touch: editor-settings/#touch
+        - Preview: editor-settings/#preview
+        - About: editor-settings/#about

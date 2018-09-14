@@ -1,8 +1,8 @@
-# Editor Settings Documentation
+# Editor Settings
 
 Yay! This is a page dedicated to describing the long, tedious, and complex settings to use the editor. Hence, the name of this section. Nah, I promsie it won't be that bad. In fact, settings in [Spck Editor](https://spck.io) are fairly straightforward (hopefully).
 
-<img width="300" src="img/settings/settings-0.png">
+<img width="300" src="/img/editor-settings/settings-0.png">
 
 ### Appearance
 
@@ -34,9 +34,13 @@ Yay! This is a page dedicated to describing the long, tedious, and complex setti
 
 *Note: These settings are only available on devices with a touch screen.*
 
+<img width="442" src="/img/editor-settings/touch-1.png">
+
 ### Preview
 
 * __Live Preview__: Toggles auto-refreshing in the preview iframe when file changes are made. This feature is not useful in the mobile version.
+
+<img width="442" src="/img/editor-settings/preview-1.png">
 
 ### About
 
