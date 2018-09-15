@@ -33,6 +33,6 @@ Below are some sites already using the embedded code editor:
 1. [Indent.js](https://zebzhao.github.io/indent.js/)
 2. [Angular-Query-Builder](https://zebzhao.github.io/Angular-QueryBuilder/editor/)
 
-If you have a project using the embedded code editor, we love to hear about it. Leave us a note by email, or through Github if you want to include it on this page.
+If you have a project using the embedded code editor, we'd love to hear about it. Leave us a note by email, or through Github if you want to include it on this page.
 
-<iframe src="https://embed.spck.io/" frameBorder="0" width="450" height="360"></iframe>
+<iframe src="https://embed.spck.io/" frameBorder="0" width="360" height="240"></iframe>
