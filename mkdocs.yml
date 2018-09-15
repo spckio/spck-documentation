@@ -17,3 +17,8 @@ nav:
         - Touch: editor-settings/#touch
         - Preview: editor-settings/#preview
         - About: editor-settings/#about
+    - Embedding:
+        - Editor: embedding/#set-up
+        - Use Cases: embedding/#use-cases
+        - Issues: embedding/#issues
+        - Demo: embedding/#demo

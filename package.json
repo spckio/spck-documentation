@@ -1,0 +1,32 @@
+{
+  "name": "spck-docs",
+  "version": "1.0.0",
+  "description": "Documentation project for Spck Editor",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "gh-pages": "gh-pages -d builds/latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spck-io/spck-docs.git"
+  },
+  "keywords": [
+    "spck",
+    "docs",
+    "code",
+    "editor"
+  ],
+  "author": "SpckOrg",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/spck-io/spck-docs/issues"
+  },
+  "homepage": "https://github.com/spck-io/spck-docs#readme",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}

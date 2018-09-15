@@ -1,12 +1,13 @@
 # Spck Code Editor
 
-Spck (pronouced as "spec") Editor enables you to work on JavaScript projects whenever, wherever. If its a new single-page app, a game, data visualizations, 3D simulations, or anything else that can be made possible using JavaScript, Spck Editor hopes to be the code editor of your choice.
+Spck (pronouced as "spec") Editor enables you to work on JavaScript projects whenever, wherever. If its a new single-page app, a game, data visualizations, 3D simulations, or anything else that can be realized  using the magic of JavaScript, HTML, and CSS, Spck Editor hopes to be the code editor of your choice.
 
 ### Android App
 
 [Spck Editor](https://spck.io) is currently available on Android. Chrome Store & iOS support are coming, but not yet ready. Meanwhile, if it's your first time here, feel free to checkout a list of features below.
 
 <a href='https://play.google.com/store/apps/details?id=io.spck&hl=en_CA&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='153'/></a>
+<img alt='Moebo' src='img/index/moebo.png' width='64'/>
 
 ---
 
@@ -50,7 +51,7 @@ Be sure to give it a try. Also please checkout our Github [repos](https://github
 
 ### Diffs
 
-File diffing is an awesome feature that any code editor needs. Features are a bit lacking in Spck Editor's code differ, but hopefully more features will be added to the differ in the near future. Some planned features are char-by-char diffs as well as in-place editting.
+File diffing is an awesome feature that any great code editor with git integration needs. More features will be added to the code differ in the near future, for example, char-by-char diffs as well as in-place diff editting.
 
 <img width="475" src="img/index/diff.png">
 
