@@ -67,3 +67,11 @@ Live previewing is a feature so essential, its barely worth mentioning. However.
 Additionally, previewing also work great in Spck Editor's mobile app. So if your interested in giving JavaScript development a try on your mobile device, be sure to download our [mobile app](https://play.google.com/store/apps/details?id=io.spck&hl=en_CA&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1).
 
 <img width="520" src="img/index/preview.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804584-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-124804584-3');
+</script>

@@ -36,3 +36,11 @@ Below are some sites already using the embedded code editor:
 If you have a project using the embedded code editor, we'd love to hear about it. Leave us a note by email, or through Github if you want to include it on this page.
 
 <iframe src="https://embed.spck.io/" frameBorder="0" width="360" height="240"></iframe>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804584-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-124804584-3');
+</script>

@@ -49,3 +49,11 @@ A section of the settings containing miscellaneous information about the editor.
 There is also an option to revoke privacy permissions granted to the app.
 
 __Warning__: Revoking privacy information means removing all projects, files, and other user data that the app stores.
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804584-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-124804584-3');
+</script>

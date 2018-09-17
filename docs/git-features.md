@@ -117,3 +117,11 @@ To make a Github commit, select the "__Push Changes__" option from the menu in t
 *__If you receive a 401 or 403 error, it means that the token you have provided does not have the permissions necessary to commit to the current repository.__*
 
 <img width="300" src="../img/git-features/committing-1.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804584-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-124804584-3');
+</script>

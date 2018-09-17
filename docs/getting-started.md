@@ -148,3 +148,11 @@ The default file to preview upon clicking "Launch" can be changed. To change the
 A blue file icon next to any HTML file indicates the current project's default file.
 
 <img width="300" src="../img/getting-started/previewing-3.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804584-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-124804584-3');
+</script>
