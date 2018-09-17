@@ -7,7 +7,6 @@ Spck (pronouced as "spec") Editor enables you to work on JavaScript projects whe
 [Spck Editor](https://spck.io) is currently available on Android. Chrome Store & iOS support are coming, but not yet ready. Meanwhile, if it's your first time here, feel free to checkout a list of features below.
 
 <a href='https://play.google.com/store/apps/details?id=io.spck&hl=en_CA&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='153'/></a>
-<img alt='Moebo' src='img/index/moebo.png' width='64'/>
 
 ---
 
