@@ -137,7 +137,7 @@ Pressing the "Play" button will launch a side window, while the "Launch button" 
 
 <img width="442" src="../img/getting-started/previewing-1.png">
 
-*__On the mobile version, only the launch option is available. The launch feature is more streamlined for mobile and carries additional features like integrated JavaScript console, etc.__*
+*__On the mobile version, only the launch option is available. The launch feature is more streamlined for mobile and carries additional features like integrated JavaScript console on Android.__*
 
 ### Setting Default Launch File
 
