@@ -1,0 +1,838 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Git Features - Spck Editor Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../#git-features" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Spck Editor Documentation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Spck Editor Documentation
+              </span>
+              <span class="md-header-nav__topic">
+                Git Features
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Spck Editor Documentation" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Spck Editor Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Getting Started
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#creating-your-first-project" title="Creating Your First Project" class="md-nav__link">
+      Creating Your First Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#adding-files" title="Adding Files" class="md-nav__link">
+      Adding Files
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#previewing" title="Previewing" class="md-nav__link">
+      Previewing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Git Features
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Git Features
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#getting-started" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#branching" title="Branching" class="md-nav__link">
+      Branching
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#file-diffs" title="File Diffs" class="md-nav__link">
+      File Diffs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#committing" title="Committing" class="md-nav__link">
+      Committing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Editor Settings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Editor Settings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#appearance" title="Appearance" class="md-nav__link">
+      Appearance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#editor" title="Editor" class="md-nav__link">
+      Editor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#touch" title="Touch" class="md-nav__link">
+      Touch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#preview" title="Preview" class="md-nav__link">
+      Preview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#about" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Importing & Exporting
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Importing & Exporting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../importing-exporting/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../importing-exporting/#import-zip-archive" title="Import Zip Archive" class="md-nav__link">
+      Import Zip Archive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../importing-exporting/#export-zip-archive" title="Export Zip Archive" class="md-nav__link">
+      Export Zip Archive
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Embedding
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Embedding
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#set-up" title="Editor" class="md-nav__link">
+      Editor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#use-cases" title="Use Cases" class="md-nav__link">
+      Use Cases
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#issues" title="Issues" class="md-nav__link">
+      Issues
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#demo" title="Demo" class="md-nav__link">
+      Demo
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" title="Table of Contents" class="md-nav__link">
+    Table of Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" title="Getting Started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mounting-a-github-repo" title="Mounting a Github Repo" class="md-nav__link">
+    Mounting a Github Repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pulling-remote-changes" title="Pulling Remote Changes" class="md-nav__link">
+    Pulling Remote Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merge-conflicts" title="Merge Conflicts" class="md-nav__link">
+    Merge Conflicts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-a-personal-github-token" title="Adding a Personal Github Token" class="md-nav__link">
+    Adding a Personal Github Token
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branching" title="Branching" class="md-nav__link">
+    Branching
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-branches" title="Creating Branches" class="md-nav__link">
+    Creating Branches
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-git-branches" title="Changing Git Branches" class="md-nav__link">
+    Changing Git Branches
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-diffs" title="File Diffs" class="md-nav__link">
+    File Diffs
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#viewing-diffs" title="Viewing Diffs" class="md-nav__link">
+    Viewing Diffs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#committing" title="Committing" class="md-nav__link">
+    Committing
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="git-features">Git Features</h1>
+<p>Github currently is one of the main ways of exporting projects from the editor. (For other ways of exporting your work, see section on <a href="/importing-exporting/">Importing &amp; Exporting</a>) Although other ways of exporting such as to shared drives is planned for the future.</p>
+<p>Right now Github is the only supported git repository provider by this editor. This document tries to summarize the git integration that is already available int he editor.</p>
+<h3 id="table-of-contents">Table of Contents</h3>
+<ul>
+<li><a href="#getting-started">Getting Started</a><ul>
+<li><a href="#mounting-a-github-repo">Mounting a Github Repo</a></li>
+<li><a href="#pulling-remote-changes">Pulling Remote Changes</a></li>
+<li><a href="#merge-conflicts">Merge Conflicts</a></li>
+<li><a href="#adding-a-personal-github-token">Adding a Personal Github Token</a></li>
+</ul>
+</li>
+<li><a href="#branching">Branching</a><ul>
+<li><a href="#creating-branches">Creating Branches</a></li>
+<li><a href="#changing-git-branches">Changing Git Branches</a></li>
+</ul>
+</li>
+<li><a href="#file-diffs">File Diffs</a><ul>
+<li><a href="#viewing-diffs">Viewing Diffs</a></li>
+</ul>
+</li>
+<li><a href="#committing">Commiting</a></li>
+</ul>
+<hr />
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="mounting-a-github-repo">Mounting a Github Repo</h3>
+<p>The process of mounting a Github repo has already been covered in the section <a href="/getting-started/#import-a-github-repo">Import a Github Repo</a>. It will not be covered here; note that it is recommended to <a href="#github-token">add a Github personal token</a> to allow for mounting of bigger repositories as well as to increase your daily usage limits of Github's APIs.</p>
+<h3 id="pulling-remote-changes">Pulling Remote Changes</h3>
+<p>Pulling will download any changes on the remote Github server that the editor is missing. Essentially, this is the process lets the editor's repository catch up on changes made by others to the remote repository.</p>
+<p>To pull changes from the remote repository, open the project's options menu and select the "<strong>Pull Changes</strong>" option.</p>
+<p><img width="300" src="../img/git-features/pulling-changes-0.png"></p>
+<p><em><strong>If there is a discrepency between a file's last known state between the remote repo and the editor, then the file is marked as having a merge conflict. This is covered in more detail in the section <a href="#merge-conflicts">Merge Conflicts</a>.</strong></em></p>
+<h3 id="merge-conflicts">Merge Conflicts</h3>
+<p>Sometimes a file have a discrepancy with the remote repository, and the history cannot differentiate which one is newer. As a result, the file is marked as having a "Merge Conflict". These files will be marked in <span style="color:#854ca0">purple</span>.</p>
+<p><img width="300" src="../img/git-features/merge-conflicts-1.png"></p>
+<p>Projects with merge conflicts cannot push commits to the remote repository until all merge conflicts are resolved.</p>
+<p>Currently the only way to resolve merge conflicts is to manually mark them as resolved by right-clicking on the file and selecting the "<strong>Mark Resolved</strong>" option.</p>
+<p><img width="300" src="../img/git-features/merge-conflicts-2.png"></p>
+<h3 id="adding-a-personal-github-token">Adding a Personal Github Token</h3>
+<p>Adding a personal Github Token to the app will increase the rate limit usage of Github APIs to 5000 requests per hour. This is more than enough to download most repositories. It is recommended to use a Github personal token (which requires a Github account) if you are mounting repositories with more than ~20 or so files.</p>
+<p>To add a Github token, choose the "<strong>Add Git Token</strong>" option from the menu in the "Projects" tab.</p>
+<p><img width="300" src="../img/git-features/add-git-token-0.png"></p>
+<p>In the prompt that appears you need to enter the Github personal token that you generated, as well as author username and email for commits. If you leave this blank, then the editor defaults will be used instead for the email and username.</p>
+<p><img width="442" src="../img/git-features/add-git-token-1.png"></p>
+<p>To Generate the Github token on the website, click the "<strong>here</strong>" link provided in the "Add Github Token" prompt.</p>
+<p>Next click "<strong>Generate new token</strong>" button on Github's page.</p>
+<p><img width="222" src="../img/git-features/add-git-token-2.png"></p>
+<p>Enter the token name and select all "<strong>repo</strong>" permissions.</p>
+<p><img width="516" src="../img/git-features/add-git-token-3.png"></p>
+<h2 id="branching">Branching</h2>
+<h3 id="creating-branches">Creating Branches</h3>
+<p>Currently, creating branches is not possible in the editor. Branches would have be to created on Github until this feature is implemented.</p>
+<h3 id="changing-git-branches">Changing Git Branches</h3>
+<p>To change the current branch, go to the "Files" tab menu and select the "<strong>Switch Branch</strong>" option. Alternatively, switching branches can also be done form the "Projects" tab.</p>
+<p><img width="300" src="../img/git-features/branching-0.png"></p>
+<p>This will open up the "Switch Branch" prompt. The project's current branch will be the current selected option. Choose an available branch from the selection menu and click "<strong>OK</strong>" to proceed.</p>
+<p><em><strong>If there are uncommited changes in the branch before switching, they will be stored locally. Next time you switch back to the original branch, the changes will be brought back.</strong></em></p>
+<p><img width="442" src="../img/git-features/branching-1.png"></p>
+<hr />
+<h2 id="file-diffs">File Diffs</h2>
+<p>Sometimes you need to see changes between your local repository and the remote repository; this is when a diff viewer is needed. Spck Editor has a built-in diff viewer for files that have changed from the remote repo.</p>
+<h3 id="viewing-diffs">Viewing Diffs</h3>
+<p>To view changes that have occurred, select a file marked in <span style="color:#f1d292; background: #232c35">yellow</span> or <span style="color:#4b88f3">blue</span> depending on if the editor is in "dark" or "light" mode.</p>
+<p><img width="300" src="../img/git-features/viewing-diffs-0.png"></p>
+<p>This should open up a modal with a unified view of the diffs. Currently, the editor does not offer any editing features in the diff viewer.</p>
+<p><img width="442" src="../img/git-features/viewing-diffs-1.png"></p>
+<hr />
+<h2 id="committing">Committing</h2>
+<p>To make a Github commit, select the "<strong>Push Changes</strong>" option from the menu in the "Files" tab.</p>
+<p><img width="300" src="../img/git-features/committing-0.png"></p>
+<p><em><strong>Pushing changes require a Github token. To add a Github token please see the section on <a href="#adding-a-personal-github-token">Adding a Personal Github Token</a>.</strong></em></p>
+<p><em><strong>If you receive a 401 or 403 error, it means that the token you have provided does not have the permissions necessary to commit to the current repository.</strong></em></p>
+<p><img width="300" src="../img/git-features/committing-1.png"></p>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804584-3"></script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-124804584-3');
+</script>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
