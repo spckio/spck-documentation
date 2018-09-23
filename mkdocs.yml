@@ -1,5 +1,8 @@
 site_name: Spck Editor Documentation
 
+theme:
+    name: 'material'
+
 nav:
     - Home: index.md
     - Getting Started:
@@ -17,6 +20,9 @@ nav:
         - Touch: editor-settings/#touch
         - Preview: editor-settings/#preview
         - About: editor-settings/#about
+    - Importing & Exporting:
+        - Import Zip Archive: importing-exporting/#import-zip-archive
+        - Export Zip Archive: importing-exporting/#export-zip-archive
     - Embedding:
         - Editor: embedding/#set-up
         - Use Cases: embedding/#use-cases
