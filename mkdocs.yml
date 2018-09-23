@@ -6,24 +6,29 @@ theme:
 nav:
     - Home: index.md
     - Getting Started:
+        - "#": getting-started/#
         - Creating Your First Project: getting-started/#creating-your-first-project
         - Adding Files: getting-started/#adding-files
         - Previewing: getting-started/#previewing
     - Git Features:
+        - "#": git-features/#
         - Getting Started: git-features/#getting-started
         - Branching: git-features/#branching
         - File Diffs: git-features/#file-diffs
         - Committing: git-features/#committing
     - Editor Settings:
+        - "#": editor-settings/#
         - Appearance: editor-settings/#appearance
         - Editor: editor-settings/#editor
         - Touch: editor-settings/#touch
         - Preview: editor-settings/#preview
         - About: editor-settings/#about
     - Importing & Exporting:
+        - "#": importing-exporting/#
         - Import Zip Archive: importing-exporting/#import-zip-archive
         - Export Zip Archive: importing-exporting/#export-zip-archive
     - Embedding:
+        - "#": embedding/#
         - Editor: embedding/#set-up
         - Use Cases: embedding/#use-cases
         - Issues: embedding/#issues
