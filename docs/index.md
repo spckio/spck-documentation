@@ -54,6 +54,13 @@ File diffing is an awesome feature that any great code editor with git integrati
 
 <img width="475" src="img/index/diff.png">
 
+### Import & Export Zip
+
+An alternative to Github commits is exporting your project as a zip file. You can transfer your project to another device by the reverse operation of importing. Note that the exported file may have Unix-style newlines (meaning a single "\n" character instead of "\r\n", however, any proper code editor should handle this automatically in Windows.
+
+<img width="300" src="img/index/import-zip.png">
+<img width="300" src="img/index/import-zip-dark.png">
+
 ### Search
 
 Project-wide code searching is a useful tool for any JavaScript development. Navigating between files by keywords and refactoring are all made easier with an awesome fast search feature. There's still room to improve with the editor's search, so we need your [feedback](https://github.com/spckio/spck-issues) on any ideas to improve the editor!

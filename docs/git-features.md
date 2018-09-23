@@ -1,6 +1,6 @@
 # Git Features
 
-Github currently is the only way of exporting projects from the editor. Although other ways of exporting such as to shared drives is planned for the future.
+Github currently is one of the main ways of exporting projects from the editor. (For other ways of exporting your work, see section on [Importing & Exporting](/importing-exporting/)) Although other ways of exporting such as to shared drives is planned for the future.
 
 Right now Github is the only supported git repository provider by this editor. This document tries to summarize the git integration that is already available int he editor.
 
@@ -24,7 +24,7 @@ Right now Github is the only supported git repository provider by this editor. T
 
 ### Mounting a Github Repo
 
-The process of mounting a Github repo has already been covered in the section [Import a Github Repo](/getting-started.html#import-a-github-repo). It will not be covered here; note that it is recommended to [add a Github personal token](#github-token) to allow for mounting of bigger repositories as well as to increase your daily usage limits of Github's APIs.
+The process of mounting a Github repo has already been covered in the section [Import a Github Repo](/getting-started/#import-a-github-repo). It will not be covered here; note that it is recommended to [add a Github personal token](#github-token) to allow for mounting of bigger repositories as well as to increase your daily usage limits of Github's APIs.
 
 ### Pulling Remote Changes
 

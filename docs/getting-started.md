@@ -65,7 +65,7 @@ To import a repository from Github into the editor, first select the "__Mount Gi
 
 You will be presented with a prompt to enter the url of the repository to import.
 
-*__If you are importing a large project with more than ~20 or so files, please add a Github token. Github API limits will prevent the project from being imported! To add a Github token please see the section [Adding a Personal Github Token](/git-features.html#adding-a-personal-github-token).__*
+*__If you are importing a large project with more than ~20 or so files, please add a Github token. Github API limits will prevent the project from being imported! To add a Github token please see the section [Adding a Personal Github Token](/git-features/#adding-a-personal-github-token).__*
 
 In the example, we are using the Spoon Knife repository (https://github.com/octocat/Spoon-Knife).
 
@@ -73,7 +73,7 @@ In the example, we are using the Spoon Knife repository (https://github.com/octo
 
 Click "__OK__" to proceed to fetch the latest copy of the branch from Github. Note this will not clone the entire repository. Instead only the latest commit tree of the branch will be downloaded to the editor.
 
-*__If you get an error, it probably means you have exceeded your Github API limit usage. You can add your personal Github token following the instructions [here](/git-features.html#adding-a-personal-github-token).__*
+*__If you get an error, it probably means you have exceeded your Github API limit usage. You can add your personal Github token following the instructions [here](/git-features/#adding-a-personal-github-token).__*
 
 <img width="442" src="../img/getting-started/mount-github-repo-3.png">
 
@@ -81,7 +81,7 @@ Your cloned Github Repo should appear in the "Projects" tab.
 
 <img width="300" src="../img/getting-started/mount-github-repo-4.png">
 
-You can switch branches as well. To see details on how to do that, please refer to the section [Changing Git Branches](/git-features.html#changing-git-branches).
+You can switch branches as well. To see details on how to do that, please refer to the section [Changing Git Branches](/git-features/#changing-git-branches).
 
 ---
 
