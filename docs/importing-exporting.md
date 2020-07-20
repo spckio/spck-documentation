@@ -6,11 +6,11 @@ Currently, the only way to import an existing project is through Github or a loc
 
 To import a zip file with your project contained within, select the option "__Import Zip File__" from the menu in the "Projects" tab.
 
-<img width="300" src="../img/index/import-zip.png">
+<img width="300" src="./img/index/import-zip.png">
 
 In the prompt that appears, enter a new project name for the imported zip archive.
 
-<img width="442" src="../img/importing-exporting/import-0.png">
+<img width="442" src="./img/importing-exporting/import-0.png">
 
 After clicking "__OK__" to continue, the imported files should appear in your new project.
 
@@ -18,12 +18,12 @@ After clicking "__OK__" to continue, the imported files should appear in your ne
 
 To export your project select the "__Export Zip__" option from either the menu in the "Files" or "Projects" tab.
 
-<img width="300" src="../img/importing-exporting/export-0.png">
-<img width="300" src="../img/importing-exporting/export-1.png">
+<img width="300" src="./img/importing-exporting/export-0.png">
+<img width="300" src="./img/importing-exporting/export-1.png">
 
 After doing so, enter the name of the zip file that will be saved to your default "Downloads" location.
 
-<img width="442" src="../img/importing-exporting/export-2.png">
+<img width="442" src="./img/importing-exporting/export-2.png">
 
 After clicking "__OK__", the download for your zip file should begin.
 
