@@ -65,7 +65,7 @@ If an invalid app token is set, you will receive "Invalid credentials" error mes
 #### Animation
     Disables all animations in the editor. For example, opening the menu, or modal animations. This is for phones or devices that experience lag with CSS animations and offers a better experience for older devices.
 
-<img width="300" src="./img/editor-settings/animation.gif">
+<video width="300" autoplay loop muted playsinline src="./img/editor-settings/animation.mp4"></video>
 
 [Back to Top](#editor-settings)
 
@@ -195,6 +195,7 @@ If an invalid app token is set, you will receive "Invalid credentials" error mes
 
 #### Tablet Mode
     Toggles on and off Tablet mode which offers a side by side view of the editor and preview window. This mode is only useful for devices with large screen widths and cannot be turned on for devices with a smaller screen width.
+
 <img width="442" src="./img/editor-settings/preview.png">
 
 [Back to Top](#editor-settings)

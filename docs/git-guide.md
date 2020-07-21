@@ -25,15 +25,18 @@ GIT is one of the main ways of exporting projects from the editor. GIT support i
 Cloning a public repo does not require any credentials.
 
 1. Open the Clone Repo dialog. Click the ⑂ button on the Projects tab.
-<img width="300" src="./img/git-features/clone-repo.png">
+
+    <img width="300" src="./img/git-features/clone-repo.png">
 
 2. Enter the Repo URL (i.e. `https://github.com/arturkot/the-house-game.git`)
-<img width="300" src="./img/git-features/clone-repo-1.png">
+
+    <img width="300" src="./img/git-features/clone-repo-1.png">
 
 3. __Shallow__: Toggle between a deep clone and a shallow clone. A deep clone will clone the entire repository history. A shallow clone will only clone the HEAD commit.
 
 4. Click OK and the cloning should begin. You can access your cloned project from the Project menu tab.
-<img width="300" src="./img/git-features/cloning.gif">
+
+    <video width="300" autoplay loop muted playsinline src="./img/git-features/cloning.mp4"></video>
 
 ### Private Repo
 
@@ -49,7 +52,8 @@ Turn a local project (no remote repo in Github, Gitlab, etc.) for keeping track 
 
 1. Create a project. See [Creating a Project](/create-project/) for more details.
 2. Click the + Icon to initialize a local repository.
-<img width="300" src="./img/git-features/init-repo.gif">
+    
+    <video width="300" autoplay loop muted playsinline src="./img/git-features/init-repo.mp4"></video>
 
 [Back to Top](#git-guide)
 
@@ -64,9 +68,11 @@ To connect a local repostiory to a remote one (BitBucket/Gitlab/Github), follow 
     #### Example with Github
     
     a. Go to [Create Repo](https://github.com/new)) page. Enter a repository name.
+    
     <img width="300" src="./img/git-features/create-remote-1.png">
     
     b. Select if the repo will be public or private. For private repo you would need to create an app token to access it. See [Creating an App Token](/create-app-token/) for more details.
+    
     <img width="300" src="./img/git-features/create-remote-2.png">
     
     c. DO NOT initialize the repository with a README as this will create a first commit that will be different from your local repository. The repo must be empty to not have any conflicts with the local one. Click **Create repository** button.
@@ -75,10 +81,12 @@ To connect a local repostiory to a remote one (BitBucket/Gitlab/Github), follow 
     d. Save the HTTPS remote repository URL for your remote. You will need this later.
 
 2. Create an initial commit for your repo. If your local repo already has commits, then skip this step.
-<img width="300" src="./img/git-features/commit.gif">
+
+    <video width="300" autoplay loop muted playsinline src="./img/git-features/commit.mp4"></video>
 
 3. Create your Remote in your project that links to your Remote Repo URL created in step 1.
-<img width="300" src="./img/git-features/create-remote-link.gif">
+
+    <video width="300" autoplay loop muted playsinline src="./img/git-features/create-remote-link.mp4"></video>
 
 4. You can now push your commits to your remote repository. See the next section for details on how to do this.
 
@@ -108,7 +116,7 @@ If you get an authentication error message the token that you created is not val
 
 Branches are a great way to keep separate versions of your code base separate. To checkout a different branch, access the checkout option from the GIT menu.
 
-<img width="300" src="./img/git-features/checkout.gif">
+<video width="300" autoplay loop muted playsinline src="./img/git-features/checkout.mp4"></video>
 
 [Back to Top](#git-guide)
 
@@ -118,7 +126,7 @@ Branches are a great way to keep separate versions of your code base separate. T
 
 You can use the + Button in the Branches modal to create a new branch. See the following example below on creating a local branch.
 
-<img width="300" src="./img/git-features/create-branch.gif">
+<video width="300" autoplay loop muted playsinline src="./img/git-features/create-branch.mp4"></video>
 
 [Back to Top](#git-guide)
 
@@ -129,9 +137,10 @@ You can use the + Button in the Branches modal to create a new branch. See the f
 To switch branches, follow the steps below:
 
 1. Open Branches modal to see a list of branches.
+
 2. Click the Checkout button to checkout either a Local or Remote branch.
 
-<img width="300" src="./img/git-features/checkout-branch.gif">
+    <video width="300" autoplay loop muted playsinline src="./img/git-features/checkout-branch.mp4"></video>
 
 [Back to Top](#git-guide)
 
@@ -152,7 +161,7 @@ To switch branches, follow the steps below:
 
 You can delete local branches but not remote branches. Remote branch deleting will be supported in the future. To delete a branch click on the "Trash" icon in Branches modal. You cannot delete the current active branch, so be sure to switch to another branch to before deleting the current branch.
 
-<img width="300" src="./img/git-features/delete-branch.gif">
+<video width="300" autoplay loop muted playsinline src="./img/git-features/delete-branch.mp4"></video>
 
 [Back to Top](#git-guide)
 
@@ -188,7 +197,7 @@ To view changes that have occurred, select a file marked in <span style="color:#
 
 You can open the diff by clicking on the filename in the Source Control section of the file menu tab. You can also open the diff by from the Options menu in the Files section and selecting the **View Diff** option.
 
-<img width="442" src="./img/git-features/open-diff.gif">
+<video width="300" autoplay loop muted playsinline src="./img/git-features/open-diff.mp4"></video>
 
 [Back to Top](#git-guide)
 

@@ -1,12 +1,17 @@
+| [Getting Started](/getting-started/) | [Embedding](/embedding/) | [Git Guide](/git-guide/) |
+| --- | :-: | --: |
+
 # Spck Code Editor
 
 Spck (pronouced as "spec") Editor enables you to work on JavaScript projects whenever, wherever. If its a new single-page app, a game, data visualizations, 3D simulations, or anything else that can be realized  using the magic of JavaScript, HTML, and CSS, Spck Editor hopes to be the code editor of your choice.
 
 ### Android App
 
-[Spck Editor](https://spck.io) is currently available on Android. Chrome Store & iOS support are coming, but not yet ready. Meanwhile, if it's your first time here, feel free to checkout a list of features below.
+[Spck Editor](https://spck.io) is currently available on the **Play Store** for **Android 5.0+** and on the **App Store** for **iOS 10.3+**.
 
 <a href='https://play.google.com/store/apps/details?id=io.spck&hl=en_CA&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='153'/></a>
+
+<a href="https://apps.apple.com/us/app/spck-editor/id1507309511?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-04-12&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;margin-left:10px;"></a>
 
 ---
 
@@ -82,3 +87,8 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'UA-124804584-3');
 </script>
+<style>
+table {
+    width:100%;
+}
+</style>
