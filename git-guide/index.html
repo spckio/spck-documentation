@@ -1,0 +1,1114 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+    
+    
+      
+        <title>GIT Guide - Spck Editor Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.b5d04df8.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#git-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Spck Editor Documentation" class="md-header-nav__button md-logo" aria-label="Spck Editor Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Spck Editor Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              GIT Guide
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Spck Editor Documentation" class="md-nav__button md-logo" aria-label="Spck Editor Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Spck Editor Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Getting Started
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Getting Started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#creating-your-first-project" title="Creating Your First Project" class="md-nav__link">
+      Creating Your First Project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#adding-files" title="Adding Files" class="md-nav__link">
+      Adding Files
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#previewing" title="Previewing" class="md-nav__link">
+      Previewing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#files" title="Files" class="md-nav__link">
+      Files
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#editing" title="Editing" class="md-nav__link">
+      Editing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/#diff-editing" title="Diff Editing" class="md-nav__link">
+      Diff Editing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Git Guide
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Git Guide" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Git Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#cloning-a-repo" title="Cloning a Repo" class="md-nav__link">
+      Cloning a Repo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#local-repo" title="Init a Repo Locally" class="md-nav__link">
+      Init a Repo Locally
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#connecting-a-local-repo-to-a-remote" title="Connecting a Local Repo to a Remote" class="md-nav__link">
+      Connecting a Local Repo to a Remote
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#pushing-repo-to-remote" title="Pushing Repo to Remote" class="md-nav__link">
+      Pushing Repo to Remote
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#check-out-branch" title="Check Out Branch" class="md-nav__link">
+      Check Out Branch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#creating-a-branch" title="Creating a Branch" class="md-nav__link">
+      Creating a Branch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#switching-branches" title="Switching Branches" class="md-nav__link">
+      Switching Branches
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#pushing-a-local-branch-to-remote" title="Pushing a Local Branch to Remote" class="md-nav__link">
+      Pushing a Local Branch to Remote
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#deleting-a-branch" title="Deleting a Branch" class="md-nav__link">
+      Deleting a Branch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#merge-conflicts" title="Merge Conflicts" class="md-nav__link">
+      Merge Conflicts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="#viewing-diffs" title="Viewing Diffs" class="md-nav__link">
+      Viewing Diffs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Editor Settings
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Editor Settings" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Editor Settings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#searching-settings" title="Searching Settings" class="md-nav__link">
+      Searching Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#git" title="GIT" class="md-nav__link">
+      GIT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#appearance" title="Appearance" class="md-nav__link">
+      Appearance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#editor" title="Editor" class="md-nav__link">
+      Editor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#preview" title="Preview" class="md-nav__link">
+      Preview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#touch" title="Touch" class="md-nav__link">
+      Touch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../editor-settings/#about" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Importing & Exporting
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Importing & Exporting" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Importing & Exporting
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../importing-exporting/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../importing-exporting/#import-zip-archive" title="Import Zip Archive" class="md-nav__link">
+      Import Zip Archive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../importing-exporting/#export-zip-archive" title="Export Zip Archive" class="md-nav__link">
+      Export Zip Archive
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Embedding
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Embedding" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Embedding
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#" title="#" class="md-nav__link">
+      #
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#set-up" title="Editor" class="md-nav__link">
+      Editor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#use-cases" title="Use Cases" class="md-nav__link">
+      Use Cases
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#issues" title="Issues" class="md-nav__link">
+      Issues
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedding/#demo" title="Demo" class="md-nav__link">
+      Demo
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cloning-a-repo" class="md-nav__link">
+    Cloning a Repo
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloning a Repo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-repo" class="md-nav__link">
+    Public Repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#private-repo" class="md-nav__link">
+    Private Repo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-repo" class="md-nav__link">
+    Local Repo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-a-local-repo-to-a-remote" class="md-nav__link">
+    Connecting a Local Repo to a Remote
+  </a>
+  
+    <nav class="md-nav" aria-label="Connecting a Local Repo to a Remote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-with-github" class="md-nav__link">
+    Example with Github
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pushing-repo-to-remote" class="md-nav__link">
+    Pushing Repo to Remote
+  </a>
+  
+    <nav class="md-nav" aria-label="Pushing Repo to Remote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication-error" class="md-nav__link">
+    Authentication Error
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-out-branch" class="md-nav__link">
+    Check Out Branch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-branch" class="md-nav__link">
+    Creating a Branch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switching-branches" class="md-nav__link">
+    Switching Branches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pushing-a-local-branch-to-remote" class="md-nav__link">
+    Pushing a Local Branch to Remote
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deleting-a-branch" class="md-nav__link">
+    Deleting a Branch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merge-conflicts" class="md-nav__link">
+    Merge Conflicts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-diffs" class="md-nav__link">
+    File Diffs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewing-diffs" class="md-nav__link">
+    Viewing Diffs
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="git-guide">GIT Guide</h1>
+<p>GIT is one of the main ways of exporting projects from the editor. GIT support is available for popular GIT hosting (i.e. Github, Gitlab, Bitbucket).</p>
+<ul>
+<li><a href="#cloning-a-repo">Cloning a Repo</a></li>
+<li><a href="#local-repo">Init a Repo Locally</a></li>
+<li><a href="#connecting-a-local-repo-to-a-remote">Connecting a Local Repo to a Remote</a></li>
+<li><a href="#pushing-repo-to-remote">Pushing Repo to Remote</a></li>
+<li><a href="#check-out-branch">Check Out Branch</a></li>
+<li><a href="#creating-a-branch">Creating a Branch</a></li>
+<li><a href="#switching-branches">Switching Branches</a></li>
+<li><a href="#pushing-a-local-branch-to-remote">Pushing a Local Branch to Remote</a></li>
+<li><a href="#deleting-a-branch">Deleting a Branch</a></li>
+<li><a href="#merge-conflicts">Merge Conflicts</a></li>
+<li><a href="#viewing-diffs">Viewing Diffs</a></li>
+</ul>
+<hr />
+<h2 id="cloning-a-repo">Cloning a Repo</h2>
+<h3 id="public-repo">Public Repo</h3>
+<p>Cloning a public repo does not require any credentials.</p>
+<ol>
+<li>
+<p>Open the Clone Repo dialog. Click the ⑂ button on the Projects tab.</p>
+<p><img width="300" src="./img/git-features/clone-repo.png"></p>
+</li>
+<li>
+<p>Enter the Repo URL (i.e. <code>https://github.com/arturkot/the-house-game.git</code>)</p>
+<p><img width="300" src="./img/git-features/clone-repo-1.png"></p>
+</li>
+<li>
+<p><strong>Shallow</strong>: Toggle between a deep clone and a shallow clone. A deep clone will clone the entire repository history. A shallow clone will only clone the HEAD commit.</p>
+</li>
+<li>
+<p>Click OK and the cloning should begin. You can access your cloned project from the Project menu tab.</p>
+<p><video width="300" autoplay loop muted playsinline src="./img/git-features/cloning.mp4"></video></p>
+</li>
+</ol>
+<h3 id="private-repo">Private Repo</h3>
+<p>To clone a private repo, you need to set up GIT credentials first. See <a href="/create-app-token/">Creating an App Token</a> page for more details.</p>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="local-repo">Local Repo</h2>
+<p>Turn a local project (no remote repo in Github, Gitlab, etc.) for keeping track of history and gain access to git features like diffing, reverting, commiting, etc.</p>
+<ol>
+<li>Create a project. See <a href="/create-project/">Creating a Project</a> for more details.</li>
+<li>
+<p>Click the + Icon to initialize a local repository.</p>
+<p><video width="300" autoplay loop muted playsinline src="./img/git-features/init-repo.mp4"></video></p>
+</li>
+</ol>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="connecting-a-local-repo-to-a-remote">Connecting a Local Repo to a Remote</h2>
+<p>To connect a local repostiory to a remote one (BitBucket/Gitlab/Github), follow the steps below. Connecting to a remote repository allows backing up and sharing your work with others that have access to that repository.</p>
+<ol>
+<li>
+<p>Create a new repository with a remote provider (i.e. <a href="https://github.com/new">Github</a>) If you already have an empty repository created, then skip this step.</p>
+<h4 id="example-with-github">Example with Github</h4>
+<p>a. Go to <a href="https://github.com/new">Create Repo</a>) page. Enter a repository name.</p>
+<p><img width="300" src="./img/git-features/create-remote-1.png"></p>
+<p>b. Select if the repo will be public or private. For private repo you would need to create an app token to access it. See <a href="/create-app-token/">Creating an App Token</a> for more details.</p>
+<p><img width="300" src="./img/git-features/create-remote-2.png"></p>
+<p>c. DO NOT initialize the repository with a README as this will create a first commit that will be different from your local repository. The repo must be empty to not have any conflicts with the local one. Click <strong>Create repository</strong> button.
+<img width="300" src="./img/git-features/create-remote-3.png"></p>
+<p>d. Save the HTTPS remote repository URL for your remote. You will need this later.</p>
+</li>
+<li>
+<p>Create an initial commit for your repo. If your local repo already has commits, then skip this step.</p>
+<p><video width="300" autoplay loop muted playsinline src="./img/git-features/commit.mp4"></video></p>
+</li>
+<li>
+<p>Create your Remote in your project that links to your Remote Repo URL created in step 1.</p>
+<p><video width="300" autoplay loop muted playsinline src="./img/git-features/create-remote-link.mp4"></video></p>
+</li>
+<li>
+<p>You can now push your commits to your remote repository. See the next section for details on how to do this.</p>
+</li>
+</ol>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="pushing-repo-to-remote">Pushing Repo to Remote</h2>
+<p>If you want to sync your commits to your remote repository, you can do so pushing the Push feature. To push commits to your remote, follow the steps below:</p>
+<ol>
+<li>
+<p>You need to have created an app token to push. You must be the owner of the public repo to push to public repos. To create an app token please see <a href="/create-app-token/">Creating an App Token</a> page.</p>
+</li>
+<li>
+<p>Open the GIT menu on the Files menu tab, and Click Push to push any unpushed commits.
+<img width="300" src="./img/git-features/push.png"></p>
+</li>
+</ol>
+<h3 id="authentication-error">Authentication Error</h3>
+<p>If you get an authentication error message the token that you created is not valid for the repo that you are pushing to. Check that the provider is set correctly for the token, and that your token has the proper repository access permissions. See <a href="/create-app-token/">Creating an App Token</a> page for more details.
+<img width="300" src="./img/git-features/authentication-error.png"></p>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="check-out-branch">Check Out Branch</h2>
+<p>Branches are a great way to keep separate versions of your code base separate. To checkout a different branch, access the checkout option from the GIT menu.</p>
+<video width="300" autoplay loop muted playsinline src="./img/git-features/checkout.mp4"></video>
+
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="creating-a-branch">Creating a Branch</h2>
+<p>You can use the + Button in the Branches modal to create a new branch. See the following example below on creating a local branch.</p>
+<video width="300" autoplay loop muted playsinline src="./img/git-features/create-branch.mp4"></video>
+
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="switching-branches">Switching Branches</h2>
+<p>To switch branches, follow the steps below:</p>
+<ol>
+<li>
+<p>Open Branches modal to see a list of branches.</p>
+</li>
+<li>
+<p>Click the Checkout button to checkout either a Local or Remote branch.</p>
+<p><video width="300" autoplay loop muted playsinline src="./img/git-features/checkout-branch.mp4"></video></p>
+</li>
+</ol>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="pushing-a-local-branch-to-remote">Pushing a Local Branch to Remote</h2>
+<ol>
+<li>Create a local branch. See instructions in <a href="#creating-a-branch">Creating a Branch</a>.</li>
+<li>Checkout the local branch.</li>
+<li>Set up a remote to push to. See instructions in <a href="#connecting-a-local-repo-to-a-remote">Connecting a Local Repo to a Remote</a>.</li>
+<li>Push the local branch to the remote. See instructions in <a href="#pushing-repo-to-remote">Pushing Repo to Remote</a>.</li>
+</ol>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="deleting-a-branch">Deleting a Branch</h2>
+<p>You can delete local branches but not remote branches. Remote branch deleting will be supported in the future. To delete a branch click on the "Trash" icon in Branches modal. You cannot delete the current active branch, so be sure to switch to another branch to before deleting the current branch.</p>
+<video width="300" autoplay loop muted playsinline src="./img/git-features/delete-branch.mp4"></video>
+
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="merge-conflicts">Merge Conflicts</h2>
+<p>Sometimes a file have a discrepancy with the remote repository, and the history cannot differentiate which one is newer. As a result, the file is marked as having a "Merge Conflict". These files will be marked in <span style="color:#854ca0">purple</span>.</p>
+<p><img width="300" src="./img/git-features/merge-conflicts-1.png"></p>
+<p>Projects with merge conflicts cannot push commits to the remote repository until all merge conflicts are resolved.</p>
+<p>Currently the only way to resolve merge conflicts is to manually mark them as resolved by right-clicking on the file and selecting the "<strong>Mark Resolved</strong>" option.</p>
+<p><img width="300" src="./img/git-features/merge-conflicts-2.png"></p>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="file-diffs">File Diffs</h2>
+<p>Sometimes you need to see changes between your local repository and the remote repository; this is when a diff viewer is needed. Spck Editor has a built-in diff viewer for files that have changed from the remote repo.</p>
+<p><a href="#git-guide">Back to Top</a></p>
+<hr />
+<h2 id="viewing-diffs">Viewing Diffs</h2>
+<p>To view changes that have occurred, select a file marked in <span style="color:#f1d292; background: #232c35">yellow</span> or <span style="color:#4b88f3">blue</span> depending on if the editor is in "dark" or "light" mode.</p>
+<p>You can open the diff by clicking on the filename in the Source Control section of the file menu tab. You can also open the diff by from the Options menu in the Files section and selecting the <strong>View Diff</strong> option.</p>
+<video width="300" autoplay loop muted playsinline src="./img/git-features/open-diff.mp4"></video>
+
+<p><a href="#git-guide">Back to Top</a></p>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804584-3"></script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-124804584-3');
+</script>
+
+<style>
+table {
+    width:100%;
+}
+</style>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.92ffa368.min.js"></script>
+      <script src="../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
