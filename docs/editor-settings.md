@@ -54,7 +54,7 @@ This is an example of using a Github app token to connect to your Github reposit
 
 <img width="300" src="./img/editor-settings/git-credentials-1.png">
 
-If an invalid app token is set, you will receive "Invalid credentials" error message or "Authentication Error" regardless if the repository is public or private. Make sure you grant the token proper access writes, and allow additional settings to push to the Github/Gitlab/Bitbucket branch. (For example, the master branch may be locked and prevent pushing which will also result in an error.) To properly create an access token, please see [Creating an Access Token for Spck Editor.](./create-app-token/)
+If an invalid app token is set, you will receive "Invalid credentials" error message or "Authentication Error" regardless if the repository is public or private. Make sure you grant the token proper access writes, and allow additional settings to push to the Github/Gitlab/Bitbucket branch. (For example, the master branch may be locked and prevent pushing which will also result in an error.) To properly create an access token, please see [Creating an Access Token for Spck Editor.](./create-app-token.html)
 
 [Back to Top](#editor-settings)
 
@@ -112,7 +112,8 @@ If an invalid app token is set, you will receive "Invalid credentials" error mes
 ## EDITOR
 
 #### Autocomplete/Check Syntax
-    Enables advance autocomplete and syntax checking when available for supported languages. Disabling this can help improve performance as autocompletion feature is memory heavy and may have bad performance on older devices. If you are experiencing frequent crashes, it may be due to a memory issue with your phone and it is recommended to try disabling this setting to improve memory usage.
+
+Enables advance autocomplete and syntax checking when available for supported languages. Disabling this can help improve performance as autocompletion feature is memory heavy and may have bad performance on older devices. If you are experiencing frequent crashes, it may be due to a memory issue with your phone and it is recommended to try disabling this setting to improve memory usage.
 
 - Advance Autocompletion Support:
     * JavaScript
@@ -134,17 +135,21 @@ If an invalid app token is set, you will receive "Invalid credentials" error mes
 [Back to Top](#editor-settings)
 
 #### Cursor Style
-    Change the cursor style of the editor. Can choose from "No Blink" or "Slim" cursor.
+
+Change the cursor style of the editor. Can choose from "No Blink" or "Slim" cursor.
 
 [Back to Top](#editor-settings)
 
 #### Font Size
-    Changes the font size of the code editor.
+
+Changes the font size of the code editor.
 
 [Back to Top](#editor-settings)
 
 #### Font
-    Changes the font used in the editor. Fonts are downloaded on-demand and can be deleted if they are no longer required.
+
+Changes the font used in the editor. Fonts are downloaded on-demand and can be deleted if they are no longer required.
+
 <img width="300" src="./img/editor-settings/fonts.png">
 
 [Back to Top](#editor-settings)
@@ -156,24 +161,30 @@ If an invalid app token is set, you will receive "Invalid credentials" error mes
 [Back to Top](#editor-settings)
 
 #### Line Numbers
-    Toggles the line numbers in the code editor. Disable line numbers to create more horizontal editing space for the editor.
+
+Toggles the line numbers in the code editor. Disable line numbers to create more horizontal editing space for the editor.
+
 <img width="300" src="./img/editor-settings/line-numbers.png">
 
 [Back to Top](#editor-settings)
 
 #### Show Invisibles
-    Show invisible characters such as new lines, return carriage, spaces, and tabs. Used to visually differentiate spaces from tabs.
+
+Show invisible characters such as new lines, return carriage, spaces, and tabs. Used to visually differentiate spaces from tabs.
+
 <img width="300" src="./img/editor-settings/invisibles.png">
 
 [Back to Top](#editor-settings)
 
 #### Use Soft Tabs
-    Toggles whether to use "Soft" Tabs versus real tabs. Soft tabs are spaces instead of real tab character. Turn this off to switch to using real tabs `\t`.
+
+Toggles whether to use "Soft" Tabs versus real tabs. Soft tabs are spaces instead of real tab character. Turn this off to switch to using real tabs `\t`.
 
 [Back to Top](#editor-settings)
 
 #### Word Wrap
-    Toggles soft line wraps in the code editor.
+
+Toggles soft line wraps in the code editor.
 
 *Note: These settings affect both the main editor as well as the diff editor.*
 
@@ -184,7 +195,9 @@ If an invalid app token is set, you will receive "Invalid credentials" error mes
 ## PREVIEW
 
 ### Live Preview
-    Turn on and off live previewing in Tablet mode. Live preview will update the side-by-side preview window whenever there is a code change. Updating of the preview will only happen if the preview window is open and has no performance implications when the preview window is not visible. This feature is not useful for phones.
+
+Turn on and off live previewing in Tablet mode. Live preview will update the side-by-side preview window whenever there is a code change. Updating of the preview will only happen if the preview window is open and has no performance implications when the preview window is not visible. This feature is not useful for phones.
+
 <img width="442" src="./img/editor-settings/preview.png">
 
 [Back to Top](#editor-settings)
@@ -194,30 +207,36 @@ If an invalid app token is set, you will receive "Invalid credentials" error mes
 ### TOUCH
 
 #### Tablet Mode
-    Toggles on and off Tablet mode which offers a side by side view of the editor and preview window. This mode is only useful for devices with large screen widths and cannot be turned on for devices with a smaller screen width.
+
+Toggles on and off Tablet mode which offers a side by side view of the editor and preview window. This mode is only useful for devices with large screen widths and cannot be turned on for devices with a smaller screen width.
 
 <img width="442" src="./img/editor-settings/preview.png">
 
 [Back to Top](#editor-settings)
 
 #### Haptic Keypress
-    Toggles on and off haptic feedback for the extra keyboard. Haptic feedback is only useful for devices which support this feature.
+
+Toggles on and off haptic feedback for the extra keyboard. Haptic feedback is only useful for devices which support this feature.
 
 [Back to Top](#editor-settings)
 
 #### Keyboard Position
-    Changes the position of the extra keyboard from Bottom to Top. This feature is useful for iOS devices where the keyboard will hide a portion of the editor including the Extra Keyboard when the virtual keyboard is active.
+
+Changes the position of the extra keyboard from Bottom to Top. This feature is useful for iOS devices where the keyboard will hide a portion of the editor including the Extra Keyboard when the virtual keyboard is active.
 
 [Back to Top](#editor-settings)
 
 #### Extra Keyboard
-    Toggles on and off the extra Keyboard. The extra keyboard provides shortcuts to code depending on the current editor language or context of the language. For example, the extra keyboard is able to provide JavaScript code suggestions in the context of a `script` tag in an HTML file.
+
+Toggles on and off the extra Keyboard. The extra keyboard provides shortcuts to code depending on the current editor language or context of the language. For example, the extra keyboard is able to provide JavaScript code suggestions in the context of a `script` tag in an HTML file.
+
 <img width="442" src="./img/editor-settings/extra-keyboard.png">
 
 [Back to Top](#editor-settings)
 
 #### Touch Keyboard
-    Toggles the Touch keyboard which contain arrow keys and other useful features.
+
+Toggles the Touch keyboard which contain arrow keys and other useful features.
 
 *Note: These settings are only available on devices with a touch screen.*
 
@@ -234,18 +253,23 @@ There is also an option to revoke privacy permissions granted to the app.
 __Warning__: Revoking privacy information means removing all projects, files, and other user data that the app stores.
 
 #### Build
-    The build version information of the editor.
+
+The build version information of the editor.
 
 [Back to Top](#editor-settings)
 
 #### Keyboard Shortcuts
-    Opens up a catalogue of keyboard shortcuts available in the editor.
+
+Opens up a catalogue of keyboard shortcuts available in the editor.
+
 <img width="442" src="./img/editor-settings/keyboard-shortcuts.png">
 
 [Back to Top](#editor-settings)
 
 #### Log History
-    Opens up a catalogue of editor actions that are logged. For help in debugging bug reports.
+
+Opens up a catalogue of editor actions that are logged. For help in debugging bug reports.
+
 <img width="442" src="./img/editor-settings/log.png">
 
 [Back to Top](#editor-settings)

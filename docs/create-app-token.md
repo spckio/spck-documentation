@@ -1,6 +1,3 @@
-| [GIT Guide](/git-guide/) |
-| --- |
-
 # Creating an App Token
 
 An app token is required for accessing GIT repositories for different providers. You can change the credentials used for GIT under the settings page. You can set different GIT credentials for each GIT provider (i.e. Github, Gitlab, Bitbucket, Other)

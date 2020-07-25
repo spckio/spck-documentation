@@ -1,6 +1,3 @@
-| [Getting Started](/getting-started/) | [Embedding](/embedding/) | [Git Guide](/git-guide/) |
-| --- | :-: | --: |
-
 # Spck Code Editor
 
 Spck (pronouced as "spec") Editor enables you to work on JavaScript projects whenever, wherever. If its a new single-page app, a game, data visualizations, 3D simulations, or anything else that can be realized  using the magic of JavaScript, HTML, and CSS, Spck Editor hopes to be the code editor of your choice.

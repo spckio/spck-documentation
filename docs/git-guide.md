@@ -1,5 +1,3 @@
-| [Getting Started](/getting-started/) |
-| --- |
 # GIT Guide
 
 GIT is one of the main ways of exporting projects from the editor. GIT support is available for popular GIT hosting (i.e. Github, Gitlab, Bitbucket).
@@ -40,7 +38,7 @@ Cloning a public repo does not require any credentials.
 
 ### Private Repo
 
-To clone a private repo, you need to set up GIT credentials first. See [Creating an App Token](/create-app-token/) page for more details.
+To clone a private repo, you need to set up GIT credentials first. See [Creating an App Token](/create-app-token.html) page for more details.
 
 [Back to Top](#git-guide)
 
@@ -71,7 +69,7 @@ To connect a local repostiory to a remote one (BitBucket/Gitlab/Github), follow 
     
     <img width="300" src="./img/git-features/create-remote-1.png">
     
-    b. Select if the repo will be public or private. For private repo you would need to create an app token to access it. See [Creating an App Token](/create-app-token/) for more details.
+    b. Select if the repo will be public or private. For private repo you would need to create an app token to access it. See [Creating an App Token](/create-app-token.html) for more details.
     
     <img width="300" src="./img/git-features/create-remote-2.png">
     
@@ -98,14 +96,14 @@ To connect a local repostiory to a remote one (BitBucket/Gitlab/Github), follow 
 
 If you want to sync your commits to your remote repository, you can do so pushing the Push feature. To push commits to your remote, follow the steps below:
 
-1. You need to have created an app token to push. You must be the owner of the public repo to push to public repos. To create an app token please see [Creating an App Token](/create-app-token/) page.
+1. You need to have created an app token to push. You must be the owner of the public repo to push to public repos. To create an app token please see [Creating an App Token](/create-app-token.html) page.
 
 2. Open the GIT menu on the Files menu tab, and Click Push to push any unpushed commits.
 <img width="300" src="./img/git-features/push.png">
 
 ### Authentication Error
 
-If you get an authentication error message the token that you created is not valid for the repo that you are pushing to. Check that the provider is set correctly for the token, and that your token has the proper repository access permissions. See [Creating an App Token](/create-app-token/) page for more details.
+If you get an authentication error message the token that you created is not valid for the repo that you are pushing to. Check that the provider is set correctly for the token, and that your token has the proper repository access permissions. See [Creating an App Token](/create-app-token.html) page for more details.
 <img width="300" src="./img/git-features/authentication-error.png">
 
 [Back to Top](#git-guide)

@@ -1,35 +1,48 @@
-site_name: Spck Editor Documentation
-
+site_name: Spck Editor Docs
+use_directory_urls: false
 theme:
     name: 'material'
 
 nav:
     - Home: index.md
     - Getting Started:
-        - "#": getting-started/#
-        - Creating Your First Project: getting-started/#creating-your-first-project
-        - Adding Files: getting-started/#adding-files
-        - Previewing: getting-started/#previewing
-    - Git Features:
-        - "#": git-features/#
-        - Getting Started: git-features/#getting-started
-        - Branching: git-features/#branching
-        - File Diffs: git-features/#file-diffs
-        - Committing: git-features/#committing
+        - "#": getting-started.html#
+        - Creating Your First Project: getting-started.html#creating-your-first-project
+        - Adding Files: getting-started.html#adding-files
+        - Previewing: getting-started.html#previewing
+        - Files: getting-started.html#files
+        - Editing: getting-started.html#editing
+        - Diff Editing: getting-started.html#diff-editing
+    - Git Guide:
+        - "#": git-guide.html#
+        - Cloning a Repo: git-guide.html#cloning-a-repo
+        - Init a Repo Locally: git-guide.html#local-repo
+        - Connecting a Local Repo to a Remote: git-guide.html#connecting-a-local-repo-to-a-remote
+        - Pushing Repo to Remote: git-guide.html#pushing-repo-to-remote
+        - Check Out Branch: git-guide.html#check-out-branch
+        - Creating a Branch: git-guide.html#creating-a-branch
+        - Switching Branches: git-guide.html#switching-branches
+        - Pushing a Local Branch to Remote: git-guide.html#pushing-a-local-branch-to-remote
+        - Deleting a Branch: git-guide.html#deleting-a-branch
+        - Merge Conflicts: git-guide.html#merge-conflicts
+        - Viewing Diffs: git-guide.html#viewing-diffs
+    - Creating App Token for GIT: create-app-token.html#
     - Editor Settings:
-        - "#": editor-settings/#
-        - Appearance: editor-settings/#appearance
-        - Editor: editor-settings/#editor
-        - Touch: editor-settings/#touch
-        - Preview: editor-settings/#preview
-        - About: editor-settings/#about
+        - "#": editor-settings.html#
+        - Searching Settings: editor-settings.html#searching-settings
+        - GIT: editor-settings.html#git
+        - Appearance: editor-settings.html#appearance
+        - Editor: editor-settings.html#editor
+        - Preview: editor-settings.html#preview
+        - Touch: editor-settings.html#touch
+        - About: editor-settings.html#about
     - Importing & Exporting:
-        - "#": importing-exporting/#
-        - Import Zip Archive: importing-exporting/#import-zip-archive
-        - Export Zip Archive: importing-exporting/#export-zip-archive
+        - "#": importing-exporting.html#
+        - Import Zip Archive: importing-exporting.html#import-zip-archive
+        - Export Zip Archive: importing-exporting.html#export-zip-archive
     - Embedding:
-        - "#": embedding/#
-        - Editor: embedding/#set-up
-        - Use Cases: embedding/#use-cases
-        - Issues: embedding/#issues
-        - Demo: embedding/#demo
+        - "#": embedding.html#
+        - Editor: embedding.html#set-up
+        - Use Cases: embedding.html#use-cases
+        - Issues: embedding.html#issues
+        - Demo: embedding.html#demo
